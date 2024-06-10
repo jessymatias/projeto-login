@@ -17,18 +17,29 @@
             <div id="Formulario">
             <h1>Login</h1>
             <p>Seja bem-vindo (a) novamente. Faça login para acessar sua conta e poder fazer as configurações do seu ambiente. </p>
-            <form action="" method="post">
+            <form action="" method="post" autocomplete="on">
              <div class="campo">
-            
-             <input type="email" name="login" id="ilogin" placeholder="seu e-mail">
+                <span class="material-symbols-outlined">
+                    supervisor_account
+                    
+                    
+             <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" required maxlength="30">
              <label for="ilogin">login</label>
             </div>
 
             <div class="campo">
+                <span class="material-symbols-outlined">
+                    vpn_key
+                    </extensão>
                 
-                <input type="password" name="senha" id="isenha" placeholder="sua senha">
+                <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
                 <label for="isenha">senha</label>
+
             </div>
+            <input type="submit" value="Entar">
+            <a href="esqieci.html">Esqueci a senha  </a><span class="material-symbols-outlined">
+                forward_to_inbox
+                
             </form>
             </div>
 
